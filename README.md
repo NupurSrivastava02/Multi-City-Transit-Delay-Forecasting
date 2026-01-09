@@ -7,7 +7,7 @@ This project builds an end-to-end machine learning pipeline to forecast bus dela
 
 - **Goal:** Predict route-level and stop-level delays to support better scheduling, rider information, and operations planning.
 - **Cities:** Seattle, Boston
-- **Data:** GTFS static + real-time feeds (schedules, trips, stop times, vehicle positions, delays)
+- **Data:** GTFS static + real-time feeds (schedules, trips, stop times, vehicle positions, delays), Weather and City Events
 - **Tech Stack:** Python, Pandas / PySpark, scikit-learn, Jupyter/Databricks, Git
 
 ## 🧩 Key Features
