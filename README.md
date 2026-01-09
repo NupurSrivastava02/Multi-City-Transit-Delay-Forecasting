@@ -28,8 +28,11 @@ This project builds an end-to-end machine learning pipeline to forecast transit 
 
 ## 🏙️ City-Specific Notes
 
-- **Seattle (Bus System):** Primarily bus-based delays with strong linear relationships and weather sensitivity — regression models perform well.
+- **Seattle (Bus System):** Primarily bus-based delays with strong linear relationships and the most significant finding is the strong predictive power of the lag-based feature (prev_delay).
+- 
 - **Boston (Subway System):** Delay patterns driven by headway instability, service alerts, and events — requires a classification + regression staging approach.
+
+📄 **Full Technical Report:** See `Project_report.pdf` for methodology, modeling details, and results.
 
 ---
 
